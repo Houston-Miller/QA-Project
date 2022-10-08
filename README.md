@@ -1,7 +1,9 @@
 # Code Lou QA Project
 ## Test outline for https://www.polygon.com/pages/newsletter
 
-**Test Cases**
+This test outline is for functionality of Polygon.com's new email subscription sign up interface. These tests below will cover the email entry field for the subscription function, as well as several features associated with the subcription emails, user settings in regards to these subscriptions, and sharing the subscription function over social media.
+
+**Feature to Test**
 1. Enter Email Field
 
 ***Test Type: Critical Path***
