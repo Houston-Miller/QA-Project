@@ -14,6 +14,8 @@ This test outline is for functionality of Polygon.com's new email subscription s
 
 * **Expected outcome:** Subscription submission Successful, Follow-up email will be sent to confirm subscription
 
+* **Actual Outcome:** Confirmation message delivered, email address successfully accepted
+
 2. Enter Email Field
 
 ***Test Type: Critical Path***
@@ -23,6 +25,8 @@ This test outline is for functionality of Polygon.com's new email subscription s
 * Test steps: enter an invalid, unregistered Email address in the subscription field
 
 * **Expected Outcome:** Display Error Message - Invalid Email, prompt user to try again
+
+* **Actual Outcome:** Error message displayed: "Oops, something went wrong. Please enter a valid email and try again."
 
 3. Terms Agreement hyperlink under submission form
 
@@ -34,6 +38,8 @@ This test outline is for functionality of Polygon.com's new email subscription s
 
 * **Expected Outcome:** Open new broswer window, directed to Terms of Use page
 
+* **Actual Outcome:** New browser window opened, Terms page succesfully displayed 
+
 4. Share to Twitter Link
 
 ***Test Type: API Test***
@@ -43,6 +49,8 @@ This test outline is for functionality of Polygon.com's new email subscription s
 * Test Steps: Click on the Twitter Icon in the top left, above the subscription field 
 
 * **Expected Outcome:** Open new broswer window, prompting to log into Twitter to access profile permissions
+
+* **Actual Outcome:** New browser window opened, successfully directed to twitter.com . Prompted for username and password
 
 5. Enter Email Field
 
@@ -54,6 +62,8 @@ This test outline is for functionality of Polygon.com's new email subscription s
 
 * **Expected Outcome:** Display Error Message - Invalid Email, prompt user to try again
 
+* **Actual Outcome:** subscription field flashed, small pop up text indicated to "enter and email address"
+
 6. Subscription Email Message
 
 ***Test Type: Integration Test***
@@ -63,6 +73,8 @@ This test outline is for functionality of Polygon.com's new email subscription s
 * Test Steps: Clink the "unsubscribe" link inside the confirmation email, or an email generated from the subscription list
 
 * **Expected Outcome:** Open new browser window with email address reference and "unsubscribe" confirmation
+
+* **Actual Outcome:** Opened new browser window with email address referenced and "unsubscribe" confirmation
 
 7. Subscription Email Message
 
@@ -74,6 +86,8 @@ This test outline is for functionality of Polygon.com's new email subscription s
 
 * **Expected Outcome:** Open new broswer window. Confirmation message displayed - Email address added to subscription list
 
+* **Actual Outcome:** Opened new broswer window. Confirmation message displayed - Email address added to subscription list
+
 8. Email Delivery Time
 
 ***Test Type: System Test***
@@ -83,6 +97,8 @@ This test outline is for functionality of Polygon.com's new email subscription s
 * Test Steps: Successfully Enter a viable email address, triggering a confirmation email to be sent - time delivery time for confirmation email to arrive in inbox
 
 * **Expected Outcome:** Confirmation email should be delivered in <2 minutes
+
+* **Actual Outcome:** Confirmation email delivered: Time for delivery - 15 seconds
 
 9. Subscription Reminder Service
 
@@ -94,6 +110,8 @@ This test outline is for functionality of Polygon.com's new email subscription s
 
 * **Expected Outcome:** A follow up, reminder email should be sent to the inbox after 2 days
 
+* **Actual Outcome:** Reminder email recieved after 2 days time, message contains infomration to continue finalizing subscription 
+
 10. Unsubscribe options menu
 
 ***Test Type: Critical Path Test***
@@ -103,3 +121,5 @@ This test outline is for functionality of Polygon.com's new email subscription s
 * Test Steps: click on "manage your email preferences here" on the unsubscribe page 
 
 * **Expected Outcome:** direct user to page with check boxes, allowing specific topics to be unsubscribed from
+
+* **Actual Outcome:** directed user to page with check boxes, allowing specific topics to be unsubscribed from
