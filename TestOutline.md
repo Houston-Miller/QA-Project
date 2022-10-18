@@ -50,7 +50,9 @@ This test outline is for functionality of Polygon.com's new email subscription s
 
 * **Expected Outcome:** Open new broswer window, prompting to log into Twitter to access profile permissions
 
-* **Actual Outcome:** New browser window opened, successfully directed to twitter.com . Prompted for username and password
+* **Actual Outcome:** ***Did not produce expected results*** 
+
+* **Bug Report:** new broswer window opens, does not correctly re-direct - displays message "Connection to server timed out, could not connect"
 
 5. Enter Email Field
 
