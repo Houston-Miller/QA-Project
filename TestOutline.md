@@ -52,7 +52,18 @@ This test outline is for functionality of Polygon.com's new email subscription s
 
 * **Actual Outcome:** ***Did not produce expected results*** 
 
-* **Bug Report:** new broswer window opens, does not correctly re-direct - displays message "Connection to server timed out, could not connect"
+* **Bug Report:** 
+ 
+    Report Number: 0001
+    
+    API Failure
+  
+    new broswer window opens, does not correctly re-direct - displays message "Connection to server timed out, could not connect"
+    
+    Defect Discovery: 10/14/22 - Houston Miller
+    
+    Status of Defect Report: **OPEN**
+   
 
 5. Enter Email Field
 
